@@ -1,0 +1,104 @@
+/* nav bar */
+#nav{
+    display:flex;
+    line-height: 20px;
+    font-size: 25px;    
+    margin: 10px;
+    padding: 20px; 
+}
+.flex-container{
+    display: flex;
+    color: black;
+    width:100%;    
+    flex-direction: row;
+    justify-content: flex-end;    
+    height: 100px;
+    align-items: center;    
+}
+.flex-container > div{
+    line-height: 20px;
+    font-size: 25px;    
+    margin: 10px;
+    padding: 20px;    
+}
+.flex-container > div > a{
+    text-decoration: none;
+    color: black;
+}
+/* body */
+body{
+    background-color: powderblue;
+}
+/* home */
+#home{
+    padding: 0;
+    left: 0;
+    right: 0;
+    background:rgba(70,130,180,0.3);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+}
+#designer{
+
+  
+}
+
+#image > img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+/* projects */
+#projects{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+#projects > div{
+    padding: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    margin: 10px;
+    background:rgba(70,130,180,0.3);
+    border-radius: 5px;
+    width: 50%;    
+}
+li{
+    /* list-style: none; */
+    font-size: 20px;
+}
+.fon{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* about me */
+#about{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+#about > div{
+    padding: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    margin: 10px;
+    background:rgba(70,130,180,0.3);
+    border-radius: 5px;
+}
+.para{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.pad{ 
+    
+}
