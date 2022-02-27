@@ -99,6 +99,15 @@ li{
     font-family: 'Courier New', Courier, monospace;
 
 }
-.pad{ 
-    
+/* contact me */
+#contactme{
+    display: flex;
+    justify-content: space-around;
+}
+.ws{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#contactlink > ol{
+    font-size: 20px;
 }
